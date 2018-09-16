@@ -17,7 +17,7 @@ compute_running_time = False
 test_data_dir = 'SR_test_data/'
 dataset = 'originla/'  # original(several DIV2K valid images) | Set5 | Set14 | B100 | Urban100 | manga109
 output_folder = 'results/' + dataset
-RGB = True # if True, compute psnr and ms-ssim on RGB channels, else only on y channel
+RGB = True # if True, compute psnr and ssim on RGB channels, else only on y channel
 
 if __name__ == "__main__":
 
