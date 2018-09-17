@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-def student_generator(input_image):
+def teacher_generator(input_image):
     input = adjust_contrast(input_image)
     with tf.variable_scope("generator_s"):
         W0 = weight_variable([1, 7, 3, 16], name="W0")  # shape=[filter_height, filter_width, in_channel, out_channel], name
