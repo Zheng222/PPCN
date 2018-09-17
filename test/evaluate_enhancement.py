@@ -7,9 +7,9 @@ import utils
 import os
 
 ## --------- Change test parameters below -----------
-from model_enhancement import student_generator as test_model
+from model_enhancement import student_generator as test_model  # from model_enhancement import teacher_generator as test_model --> for teacher model
 
-model_location = "ckpt_enhancement/iphone_trackBC.ckpt"  # iphone_trackBC.ckpt | iphone_trackA.ckpt
+model_location = "ckpt_enhancement/iphone_trackBC.ckpt"  # iphone_trackBC.ckpt | iphone_trackA.ckpt | student.ckpt | teacher.ckpt | studen_wo_kd.ckpt
 
 compute_PSNR_SSIM = True
 compute_running_time = True
