@@ -2,7 +2,7 @@
 
 ``iphone_trackA.ckpt`` and ``iphone_trackBC.ckpt`` are final submitted checkpoint files in the PIRM 2018. **(trained with L1 and VGG losses)**
 
-``student.ckpt`` is better checkpoint that trained without L1 and VGG losses, which is mentioned in the paper.
+``student.ckpt`` is the better checkpoint that trained without L1 and VGG losses, which is mentioned in the paper.
 
 ``teacher.ckpt`` is the teacher model with more parameters and get the higher performance in terms of PSNR and MS-SSIM.
 
