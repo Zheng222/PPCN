@@ -15,7 +15,7 @@ model_location = "ckpt_super_resolution/generator_all.ckpt"    # specify the loc
 compute_PSNR_SSIM = True
 compute_running_time = False
 test_data_dir = 'SR_test_data/'
-dataset = 'originla/'  # original(several DIV2K valid images) | Set5 | Set14 | B100 | Urban100 | manga109
+dataset = 'original/'  # original(several DIV2K valid images) | Set5 | Set14 | B100 | Urban100 | manga109
 output_folder = 'results/' + dataset
 RGB = True # if True, compute psnr and ssim on RGB channels, else only on y channel
 
