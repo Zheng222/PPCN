@@ -1,6 +1,6 @@
 ## File specification
 
-``iphone_trackA.ckpt`` and ``iphone_trackBC.ckpt`` are final submitted checkpoint files in the PIRM 2018. **(trained with L1 and VGG losses)**
+``iphone_trackA.ckpt`` and ``iphone_trackBC.ckpt`` are final submitted checkpoint files in the [PIRM 2018](http://ai-benchmark.com/challenge.html). **(trained with L1 and VGG losses)**
 
 ``student.ckpt`` is the better checkpoint that trained without L1 and VGG losses, which is mentioned in the paper.
 
