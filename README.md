@@ -1,6 +1,6 @@
 ![Python 3.5](https://img.shields.io/badge/python-3.5-green.svg)
 # PPCN (Team: Rainbow)
-
+[[Paper]](files/PPCN.pdf)
 ## Super-Resolution Task
 <p align="center">
   <img src="files/SR-pipeline.png" width="400"> <br />
