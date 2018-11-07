@@ -33,6 +33,19 @@ Run the following command to enhance low-quality images
 ```
 python evaluate_enhancement.py
 ```
+## Citation
+
+If you find PPCN useful in your research, please consider citing:
+
+```
+@inproceedings{Hui-PPCN-2018,
+  title={Perception-Preserving Convolutional Networks for Image Enhancement on Smartphones},
+  author={Hui, Zheng and Wang, Xiumei and Deng, Lirui and Gao, Xinbo},
+  booktitle={ECCV Workshop},
+  pages = {},
+  year={2018}
+}
+```
 
 ## Code References
 [1]https://github.com/aiff22/ai-challenge
