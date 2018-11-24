@@ -28,8 +28,8 @@ python evaluate_super_resolution.py
 </p>
 
 ### Training
-- Step1: download the pre-trained [VGG19 model](https://drive.google.com/open?id=1-09iLDLPB_evodnpTgq66u5YhvzN-kqo) and put it into `vgg_pretrained/` folder
-- Step2: download [DPED dataset](http://people.ee.ethz.ch/~ihnatova/#dataset) and extract it into `dped/` folder.
+- Step1: download the pre-trained [VGG19 model](https://drive.google.com/open?id=1-09iLDLPB_evodnpTgq66u5YhvzN-kqo) and put it into `train/vgg_pretrained/` folder
+- Step2: download [DPED dataset](http://people.ee.ethz.ch/~ihnatova/#dataset) and extract it into `train/dped/` folder.
 - Step3: train the teacher model by executing the following command
 ```bash
 python train_teacher.py
