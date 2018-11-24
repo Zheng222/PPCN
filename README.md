@@ -27,6 +27,18 @@ python evaluate_super_resolution.py
   <em> The structure of the proposed generator and discriminator for image enhancement </em>
 </p>
 
+### Training
+- Step1: download the pre-trained [VGG19 model](https://drive.google.com/open?id=1-09iLDLPB_evodnpTgq66u5YhvzN-kqo) and put it into `train/vgg_pretrained/` folder
+- Step2: download [DPED dataset](http://people.ee.ethz.ch/~ihnatova/#dataset) and extract it into `train/dped/` folder.
+- Step3: train the teacher model by executing the following command
+```bash
+python train_teacher.py
+```
+- Step4: train the student model by running
+```bash
+python train_student.py
+```
+
 ### Testing
 
 Run the following command to enhance low-quality images
