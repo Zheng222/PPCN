@@ -60,7 +60,7 @@ def process_command_args(arguments):
     w_texture = 1
     w_tv = 2000
 
-    dped_dir = '/data/dped/'  # training dataset dir
+    dped_dir = 'dped/'  # training dataset dir
     vgg_dir = 'vgg_pretrained/imagenet-vgg-verydeep-19.mat'
     eval_step = 1000
 
@@ -143,7 +143,7 @@ def process_command_args(arguments):
 def process_test_model_args(arguments):
 
     phone = "iphone_orig"
-    dped_dir = '/data/dped/'
+    dped_dir = 'dped/'
     test_subset = "full"  # small
     iteration = "all"
     resolution = "orig"
