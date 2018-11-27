@@ -7,6 +7,15 @@
   <em> The schematics of the proposed network for image super-resolution</em>
 </p>
 
+### Training
+
+First, download the [DIV2K dataset](https://data.vision.ee.ethz.ch/cvl/DIV2K/) and unzip it in ``train_SR/`` folder.
+
+Run the following command to train the SR model
+```
+python train_SR.py
+```
+
 ### Testing
 
 First, download the [SR_Test_Datasets](https://drive.google.com/open?id=1_K6mchwDGOQMIXuBIGrlDA4EAYgbtdmU) and put them in ``test/SR_test_data`` folder.
