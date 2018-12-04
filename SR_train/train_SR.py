@@ -139,7 +139,7 @@ for epoch in range(0, n_epoch + 1):
         val_psnr = 0
         val_ssim = 0
         for i in range(len(valid_hr_imgs)):
-            hr = valid_lr_imgs[i]
+            hr = valid_hr_imgs[i]
             lr = valid_lr_imgs[i]
             [lr, hr] = utils.datatype([lr, hr])
 
