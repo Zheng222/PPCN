@@ -39,6 +39,11 @@ def datatype(x):
         x[i] = x[i].astype(np.float32)
     return x
 
+def datarange(x):
+    for i in range(len(x)):
+        x[i] = x[i] / 255.
+    return x
+
 def transpose(xs):
     for i in range(len(xs)):
         xs[i] = xs[i].transpose(2, 0, 1)
@@ -46,8 +51,9 @@ def transpose(xs):
 
 def update_tensorboard(epoch, tb, img_idx, lr, sr, hr):  # tb--> tensorboard
     [lr, sr, hr] = transpose([lr, sr, hr])
+    [lr, sr, hr] = datarange([lr, sr, hr])    # for visualizing correctly [0.0, 255.0] --> [0, 1]
 
-    if epoch == 20:
+    if epoch == 10:
         tb.add_image(str(img_idx) + '_LR', lr, 0)
         tb.add_image(str(img_idx) + '_HR', hr, 0)
     tb.add_image(str(img_idx) + '_SR', sr, epoch)
