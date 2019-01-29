@@ -1,6 +1,6 @@
 ![Python 3.5](https://img.shields.io/badge/python-3.5-green.svg)
 # PPCN (Team: Rainbow)
-[[Paper]](files/PPCN.pdf)
+[[Paper_download]](files/PPCN.pdf)[[Paper]](https://link.springer.com/chapter/10.1007/978-3-030-11021-5_13)
 ## Super-Resolution Task
 <p align="center">
   <img src="files/SR-pipeline.png" width="400"> <br />
@@ -63,7 +63,7 @@ If you find PPCN useful in your research, please consider citing:
   title={Perception-Preserving Convolutional Networks for Image Enhancement on Smartphones},
   author={Hui, Zheng and Wang, Xiumei and Deng, Lirui and Gao, Xinbo},
   booktitle={ECCV Workshop},
-  pages = {},
+  pages = {197--213},
   year={2018}
 }
 ```
