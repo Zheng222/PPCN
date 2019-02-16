@@ -1,6 +1,6 @@
 ![Python 3.5](https://img.shields.io/badge/python-3.5-green.svg)
 # PPCN (Team: Rainbow)
-[[Paper_download]](files/PPCN.pdf)[[Paper]](https://link.springer.com/chapter/10.1007/978-3-030-11021-5_13)
+[[Paper_download]](files/PPCN.pdf)[[Paper_CVF]](http://openaccess.thecvf.com/content_ECCVW_2018/papers/11133/Hui_Perception-Preserving_Convolutional_Networks_for_Image_Enhancement_on_Smartphones_ECCVW_2018_paper.pdf)[[Paper_Springer]](https://link.springer.com/chapter/10.1007/978-3-030-11021-5_13)
 ## Super-Resolution Task
 <p align="center">
   <img src="files/SR-pipeline.png" width="400"> <br />
